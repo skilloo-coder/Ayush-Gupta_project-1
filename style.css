@@ -4,6 +4,14 @@
   box-sizing: border-box;
 }
 
+#preloader{
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  background: #fff url(loader.gif) no-repeat center;
+  z-index: 9999;
+}
+
 html{
   font-size: 62.5%;
   scroll-behavior: smooth;
