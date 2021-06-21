@@ -446,7 +446,7 @@ html{
 
 /*-------------i-pad & tablets----------------------------------------------*/
 
-@media (max-width:1024px){
+@media (max-width:1366px){
   
   
   html{
@@ -462,7 +462,7 @@ html{
   /*---------mobile--------BODY-SECTION-DIV-2------------------------------------------*/
  
 .body-section-div-2{
-       transform: translatey( 7rem);
+       transform: translatey( 12rem);
        width:100vw;
        height:44rem;
   }
@@ -489,7 +489,7 @@ html{
   background: linear-gradient(to right, red, blue);
   color: #616163;
   width: 80vw;
-  height: 19rem;
+  height: 14.5rem;
   transform: translatey( 18rem);
   font-size: 2rem;
   font-family: 'Viaoda Libre', cursive;
@@ -537,7 +537,7 @@ html{
   display: block;
   height: 34rem;
   width: 100vw;
-  font-size: 1.5rem;
+  font-size: 2rem;
 }
 
 .about-section-image img {
@@ -563,8 +563,8 @@ html{
 .about-section-para {
   background: linear-gradient(to right, red, blue);
   color: #616163;
-  width: 70vw;
-  height: 7.5rem;
+  width: 80vw;
+  height: 8rem;
   transform: translatey(9.5rem);
   font-size:2rem;
   font-family: 'Viaoda Libre', cursive;
