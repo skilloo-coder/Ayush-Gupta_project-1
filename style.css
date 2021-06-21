@@ -71,7 +71,7 @@ html{
 
 .BODY-HEADER-DIV-2 li{
   display:flex;
-  padding: 0rem 1rem;
+  padding: 0rem 2rem;
   height: 3.5rem;
   align-items: center;
   transition: all .4s;
@@ -283,6 +283,7 @@ html{
   
    .BODY-HEADER-DIV-2 li{
    font-size: 1rem;
+     padding:0rem 1rem;
  }
  
  /*---------mobile--------BODY-SECTION-DIV-1------------------------------------------*/
