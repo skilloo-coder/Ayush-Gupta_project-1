@@ -601,6 +601,7 @@ html{
   
        .about-section-para{
          font-size:1.5rem;
+         margin-bottom:30rem;
          }
       
           .body-section-div-3{
@@ -608,6 +609,8 @@ html{
             margin:auto;
             transform: translatey(27rem);
             font-size: 1.5rem;
+            display:flex;
+            justify-content:center;
             }
       
    }
