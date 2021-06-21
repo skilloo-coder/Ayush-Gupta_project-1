@@ -517,7 +517,7 @@ html{
 .about-section-title {
   display: flex;
   width: 100vw;
-  height: 2.5rem;
+  height: 3rem;
   transform: translatey( -1rem);
   justify-content: center;
   align-items: center;
@@ -591,5 +591,25 @@ html{
 }
  
  }
+
+
+@media (max-width:414px){
+       
+        .about-section{
+         transform: translatey(60rem);
+          }
+  
+       .about-section-para{
+         font-size:1.5rem;
+         }
+      
+          .body-section-div-3{
+            width:100rem;
+            height: 50rem;
+            transform: translate(5.5rem, 27rem);
+            font-size: 1.5rem;
+            }
+      
+   }
   
   
