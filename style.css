@@ -604,8 +604,7 @@ html{
          }
       
           .body-section-div-3{
-            width:100rem;
-            height: 50rem;
+           width:80vw;
             transform: translate(5.5rem, 27rem);
             font-size: 1.5rem;
             }
