@@ -263,7 +263,7 @@ html{
    }media
  }
  
- @media(max-width:767px) {
+ @media(max-width:760px) {
    html {
      font-size: 45%;
    }
@@ -446,7 +446,7 @@ html{
 
 /*-------------i-pad & tablets----------------------------------------------*/
 
-@media (min-width:768px) and (max-width:1366px){
+@media (max-width:1366px){
   
   
   html{
@@ -461,7 +461,10 @@ html{
  
   /*---------mobile--------BODY-SECTION-DIV-2------------------------------------------*/
  
-
+.body-section-div-2{
+       width:100vw;
+       height:44rem;
+  }
 
 .body-section-div-2 img{
   display: flex;
@@ -469,7 +472,6 @@ html{
   padding-top: 2rem;
   width:28.8rem ;
   height:36rem;
-  box-shadow: 1rem 1rem 2.5rem;
 }
 
 
@@ -486,8 +488,8 @@ html{
   background: linear-gradient(to right, red, blue);
   color: #616163;
   width: 70vw;
-  height: 14rem;
-  transform: translate(2.8rem, 12rem);
+  height: 17rem;
+  transform: translatey( 12rem);
   font-size: 2rem;
   font-family: 'Viaoda Libre', cursive;
   box-shadow: 1rem 1rem 1rem #4c4c4c;
@@ -515,7 +517,7 @@ html{
   display: flex;
   width: 100vw;
   height: 2.5rem;
-  transform: translate(8rem, -1rem);
+  transform: translatey( -1rem);
   justify-content: center;
   align-items: center;
 }
@@ -530,7 +532,7 @@ html{
 
 /*-------------ABOUT-SECTION-DIV-2----------------------------------------*/
 .about-section-image {
-  transform: translate(8rem, 2.5rem);
+  transform: translatey(2.5rem);
   display: block;
   height: 34rem;
   width: 100vw;
@@ -542,7 +544,7 @@ html{
   height: 30rem;
   margin: auto;
   padding-top: 1.5rem;
-  box-shadow: 1rem 1rem 2.5rem;
+ 
 }
 
 .about-section-image p {
@@ -550,7 +552,7 @@ html{
   display: flex;
   text-align: center;
   background: blue;
-  transform: translateY(1.8rem);
+  transform: translateY(1.5rem);
   font-family: fancy;
 }
 
@@ -561,7 +563,7 @@ html{
   color: #616163;
   width: 70vw;
   height: 7.5rem;
-  transform: translate(2.75rem, 9.5rem);
+  transform: translatey(9.5rem);
   font-size:2rem;
   font-family: 'Viaoda Libre', cursive;
   box-shadow: 1rem 1rem 1rem #4c4c4c;
