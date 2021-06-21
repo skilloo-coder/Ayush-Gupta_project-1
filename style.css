@@ -507,7 +507,7 @@ html{
 /*-------------ABOUT-SECTION----------------------------------------*/
 
 .about-section {
-  transform: translatey(25rem);
+  transform: translatey(40rem);
   display: block;
   width: 100vw;
 }
